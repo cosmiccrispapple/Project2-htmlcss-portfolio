@@ -78,3 +78,10 @@ hr {
     flex-direction: row;
     font-size: smaller;
 }
+
+@media (max-width: 1250px) {
+    .hero, .about, .resume, .work, .footer {
+    flex-direction: column;
+    height: 100%;
+}
+}
